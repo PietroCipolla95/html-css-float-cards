@@ -4,3 +4,53 @@
     box-sizing: border-box;
 }
 
+:root{
+    --tm--pink: #E53170;
+    --tm--black: #0F0E17;
+    --tm--email: #3B9EC5;
+}
+
+body{
+    max-width: 1170px;
+    width: 80%;
+    margin: auto;
+    font-family: 'Fredoka', sans-serif;
+}
+
+/* #region Header */
+
+
+h1{
+    text-align: center;
+    margin: 2rem 0;
+    color: var(--tm--pink);
+    font-size: 2rem;
+}
+
+header > p{
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+/* #endregion Header */
+
+.row{
+    content: "";
+    display: table;
+    clear: both;
+    max-width: 1170px;
+    width: 80%;
+    margin: auto;
+}
+
+.col{
+    float: left;
+    width: calc(100% / 3);
+    background-color: var(--tm--black)
+}
+
+img{
+    width: 100px;
+}
+
