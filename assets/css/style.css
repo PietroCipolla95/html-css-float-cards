@@ -35,22 +35,25 @@ header > p{
 
 /* #endregion Header */
 
-.row{
-    content: "";
-    display: table;
-    clear: both;
+.container{
     max-width: 1170px;
     width: 80%;
-    margin: auto;
+    
 }
+
+
 
 .col{
     float: left;
     width: calc(100% / 3);
-    background-color: var(--tm--black)
+    background-color: var(--tm--black);
+    color: white;
+    border-color: 1px solid red;
 }
 
 img{
     width: 100px;
+    float: left;
+
 }
 
