@@ -14,6 +14,14 @@ body{
     font-family: 'Fredoka', sans-serif;
 }
 
+/* Utility */
+
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
 /* #region Header */
 
 
@@ -31,6 +39,7 @@ h1{
 
 /* #endregion Header */
 
+/* #region Main */
 
 main{
     max-width: 1170px;
@@ -44,13 +53,11 @@ main > p{
     font-weight: 600;
 }
 
-.clearfix::after{
-    content: '';
-    display: table;
-    clear: both;
-}
+/* #endregion Main */
 
 
+
+/* #region Cards */
 
 
 .col{
@@ -59,7 +66,15 @@ main > p{
     color: white;
     margin-top: 2rem;
     padding: 0 1rem;
-    
+}
+
+.card {
+    background-color: var(--tm--black);
+    box-shadow: 2px 2px 4px #000;
+}
+
+.img{
+    float: left;
 }
 
 img{
@@ -69,8 +84,7 @@ img{
 
 .details{
     float: left;
-    background-color: var(--tm--black);
-    height: 100px;
+    /*height: 100px;*/
     width: calc(100% - 100px);
     padding: 1rem;
 }
@@ -80,3 +94,5 @@ a{
     color: var(--tm--email);
 }
 
+
+/* #endregion Cards */
