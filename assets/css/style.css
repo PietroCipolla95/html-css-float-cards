@@ -52,12 +52,13 @@ main > p{
 
 
 
+
 .col{
     float: left;
     width: calc(100% / 3);
     color: white;
     margin-top: 2rem;
-    padding: 1rem;
+    
 }
 
 img{
